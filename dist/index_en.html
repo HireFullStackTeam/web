@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+	<title>Gulp Frontend Boilerplate</title>
+
+	<link rel="stylesheet" href="styles/main.css">
+
+	<meta property="og:title" content="HireFullStackTeam"/>
+	<meta property="og:url" content="http://domain.tld"/>
+	<meta property="og:image" content="http://domain.tld/static/share.png"/>
+	<meta property="og:site-name" content="HireFullStackTeam"/>
+	<meta property="og:description" content="An ES6 boilerplate with common frontend tasks using Gulp 4 as build system."/>
+	
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@domain">
+	<meta name="twitter:title" content="HireFullStackTeam">
+	<meta name="twitter:description" content="An ES6 boilerplate with common frontend tasks using Gulp 4 as build system.">
+	<meta name="twitter:creator" content="@domain">
+	<meta name="twitter:image:src" content="http://domain.tld/static/share.png">
+	
+
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	
+</head>
+<body>
+<!--[if lt IE 8]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+<div id="main">
+	<!-- Intorduction -->
+	<div class="introduction">
+		<div class="container">
+			<h1 class="display-3">Hello, world<span class="blinker"></span></h1>
+			<h4 class="introduction-text">
+				Hire full-stack team of experienced senior developers</br> Jarda and Jakub.
+			</h4>
+			<a class="btn btn-success btn-lg" href="mailto:me@jakubkratina.cz" role="button">Hire us</a>
+		</div>
+	</div>
+	
+	
+	<!-- About us --->
+	<div class="container about-guys section">
+		<!-- Example row of columns -->
+		<div class="row">
+			<div class="col-md-6">
+				<div class="avatar avatar-jarda"></div>
+				<h2>Jarda</h2>
+				<p class="about-guys__text">Posledních 5 let se věnuji vývoji webových stránek a aplikací se zaměřením na front-end. Zajímají mě moderní a trendy technologie - aktuálně mě dostal blockchain a decentralizované projekty založené na technologii Bitcoinu. Věnuji se primárně vytváření javascriptových aplikací s využitím React.js, cestuji po světě a baví mě to.</p>
+				<div>
+					<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/malekjaroslav" target="_blank">
+						<span class="fa fa-facebook"></span>
+					</a>
+					<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/malekjaroslav" target="_blank">
+						<span class="fa fa-linkedin"></span>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="avatar avatar-jakub"></div>
+				<h2>Jakub</h2>
+				<p class="about-guys__text">Více jak 7 let se živím onlinem. V roce 2011 jsem založil vývojářskou firmu, kterou v roce 2015 prodal a vrátil se na volnou nohu, na dráhu vývojáře. Velmi mě baví čistý, testovatelný a čitelný kód ne-špagetový kód, který je podpořen návrhovými vzory. Mám za sebou manažerskou zkušenost a baví mě vést tým vývojářů a motivovat je k psaní kvalitního kódu tím, že jdu příkladem. Vystudoval jsem ČVUT v Praze, fakultu informačních technologií a pomáhám své přítelkyni v jejím sladném podnikání www.tartaletka.cz.</p>
+				<div>
+					<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/jkratina" target="_blank">
+						<span class="fa fa-facebook"></span>
+					</a>
+					<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/bc-jakub-kratina-b5972549" target="_blank">
+						<span class="fa fa-linkedin"></span>
+					</a>
+					<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/KratinaJakub" target="_blank">
+						<span class="fa fa-twitter"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- What happened --->
+	<div class="section section-grey what-happened">
+		<div class="container">
+			<h3 class="title">Co se stalo?</h3>
+			<p>Na začátku roku 2016 jsme začali vyvíjet sběratelský portál Fullpast (<a href="https://www.fullpast.com" target="_blank">www.fullpast.com</a>), takový e-bay pro sběratele. Bohužel klientovi došly peníze na další vývoj a projekt víceméně ze dne na den skončil.</p>
+		</div>
+	</div>
+	
+	<!-- Technology stack --->
+	<div class="section technology-stack">
+		<div class="container">
+			<h3>Na čem jsme projekt postavili?</h3>
+			<p>Fullpast frontend je single page aplikace v <strong>React.js</strong>, která komunikuje s <strong>REST API</strong> napsané v Laravelu (resp. <strong>Dingo API</strong>). Kompletní dev stack na frontendu je: <strong>React.js, Node.js, Webpack, Eslint, Redux, Immutable.js, Flowtype a Gulp.</strong></p>
+	
+			<p>Backend běží na <strong>PHP 7 a Laravel</strong> verzi 5.3. Obrázky sběratelů se ukládají na <strong>AWS S3</strong>, cache pomocí <strong>Redis</strong>, vyhledávání přes <strong>ElasticSearch</strong>. Deploy probíhá automatizovaně díky kombinaci <strong>Gitlab CI a Envoyer</strong> se zero downtime. Kód je pokrytý <strong>testy</strong>, ať už jednotkovými, integračními, tak akceptačními. V administraci se používá <strong>Vue.js.</strong></p>
+	
+			<p>Veškerý vývoj probíhal <strong>remote, project management v Asaně</strong>, komunikace pomocí <strong>Slacku</strong>, Skypu a e-mailu.</p>
+		</div>
+	</div>
+	
+	<!-- Why us --->
+	<div class="section why-us">
+		<div class="container">
+			<h3>Proč nás?</h3>
+			<p>S Jardou jsme <strong>sehraný tým</strong>, dobře se nám spolu pracuje, <strong>společně</strong> jsme <strong>velmi efektivní a rádi bychom v tom pokračovali</strong>. Ať už na novém projektu, který díky nám můžete rozjet nebo jako posila vašeho stávajícího týmu.</p>
+			<p>Chceme pracovat na globálním projektu, kde dokážeme naplno využít našich zkušeností a schopností.</p>
+			<p><strong>Pracujeme remote</strong>, Jakub žije v Praze, v České Republice a Jarda nyní nomádí v Thajsku.</p>
+		</div>
+	</div>
+	
+	
+</div>
+
+<script src="scripts/vendor.js"></script>
+<script src="scripts/main.js"></script>
+
+<!-- //@include inc/_analytics.html -->
+</body>
+</html>

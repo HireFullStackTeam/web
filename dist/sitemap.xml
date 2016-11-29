@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://domain.tld/homepage.html</loc>
+        <lastmod>2016-11-29T04:03:29.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://domain.tld/homepage_en.html</loc>
+        <lastmod>2016-11-29T04:31:09.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://domain.tld/</loc>
+        <lastmod>2016-11-29T03:42:59.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://domain.tld/index_en.html</loc>
+        <lastmod>2016-11-29T04:30:53.000Z</lastmod>
+    </url>
+</urlset>

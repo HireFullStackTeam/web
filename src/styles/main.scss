@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+// @import '_sprite';
+@import 'node_modules/normalize.css/normalize';
+@import 'node_modules/sass-easing/_easings';
+@import 'fonts/_fonts';
+@import 'modules/**/*';
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.section {
+  padding: 40px 0;
+  h3 {
+    line-height: 2;
+
+  }
+}
+
+.section-grey {
+  background-color: #4B0082;
+  color: white;
+
+  a {
+    color: #54a4ea;
+
+    &:hover {
+      color: #68a1d3;
+    }
+
+    &.btn {
+      color: #fff;
+    }
+  }
+}
+
+.introduction {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #694489;
+  color: #fff;
+
+  .introduction-text {
+    line-height: 1.5;
+  }
+
+  a {
+    margin-top: 20px;
+  }
+}
+
+.about-guys {
+  text-align: center;
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+  }
+
+  .fa::before {
+    color: white;
+  }
+
+  .avatar-jakub {
+    background-image: url('../images/jakub_avatar.jpg');
+  }
+
+  .avatar-jarda {
+    background-image: url('../images/jarda_avatar.jpg');
+  }
+}
+
+.about-guys__text {
+  padding: 20px;
+}
