@@ -23,6 +23,21 @@ html {
   }
 }
 
+.languages {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  a {
+    color: white;
+    margin: 0 10px;
+
+    &:hover {
+      color: #dddddd;
+    }
+  }
+}
+
 .section-grey {
   background-color: #4B0082;
   color: white;
